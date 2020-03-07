@@ -44,6 +44,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_USE_NEW_MAGISKBOOT=1
 
         export OF_KEEP_DM_VERITY="1"  # enabled for R10.1
+	export OF_DISABLE_FORCED_ENCRYPTION="1"  # enabled for R10.1
 
 	# let's see what are our build VARs
 	if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
