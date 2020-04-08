@@ -43,6 +43,15 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_USE_NEW_MAGISKBOOT=1
         export OF_KEEP_DM_VERITY="1"  # enabled for R10.1
 	export OF_DISABLE_FORCED_ENCRYPTION="1"  # enabled for R10.1 (A10)
+	export OF_SKIP_MULTIUSER_FOLDERS_BACKUP=1
+	export OF_CHECK_OVERWRITE_ATTEMPTS="1"
+
+	# block-based OTA for custom ROMs
+	export OF_SUPPORT_ALL_BLOCK_OTA_UPDATES="1";
+	export OF_FIX_OTA_UPDATE_MANUAL_FLASH_ERROR="1";
+
+	export OF_PATCH_AVB20="1"
+	export OF_USE_SYSTEM_FINGERPRINT="1"
 
 	# let's see what are our build VARs
 	if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
