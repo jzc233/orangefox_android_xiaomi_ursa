@@ -1,6 +1,5 @@
 # Device tree for Xiaomi Mi 8 (codenamed _"dipper"_)
 
-Kernel source: "https://github.com/LineageOS/android_kernel_xiaomi_sdm845.git -b lineage-18.1"
 ==================================
 
 ## Device specifications
@@ -28,6 +27,9 @@ Generally, see https://wiki.orangefox.tech/en/dev/building
 1. For standard mode, build without any additional flags.
 2. To build for ROMs using retrofitted dynamic partitions, run "export FOX_USE_DYNAMIC_PARTITIONS=1" before building.
 3. To build for ROMs using borrowed keymaster 4.0, run "export FOX_USE_KEYMASTER_4=1" before building.
+
+### Kernel source
+Clone this: "https://github.com/LineageOS/android_kernel_xiaomi_sdm845.git -b lineage-18.1"
 
 ## Copyright
  ```
