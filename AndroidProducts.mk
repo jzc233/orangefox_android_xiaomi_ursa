@@ -1,5 +1,7 @@
 #
-# Copyright 2016 The Android Open-Source Project
+# Copyright 2017 The Android Open Source Project
+#
+# Copyright (C) 2019-2022 OrangeFox Recovery Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,5 +16,10 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_dipper.mk
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/twrp_dipper.mk
 
+COMMON_LUNCH_CHOICES := \
+    twrp_dipper-user \
+    twrp_dipper-userdebug \
+    twrp_dipper-eng
