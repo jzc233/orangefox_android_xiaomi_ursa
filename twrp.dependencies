@@ -3,6 +3,6 @@
     "remote": "https://gitlab.com/OrangeFox",
     "repository": "device/sdm845-common",
     "target_path": "device/xiaomi/sdm845-common",
-    "branch": "android-12.1"
+    "branch": "fox_12.1"
   }
 ]
