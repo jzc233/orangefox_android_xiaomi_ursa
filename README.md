@@ -29,7 +29,7 @@ Generally, see https://wiki.orangefox.tech/en/dev/building
 3. To build for ROMs using borrowed keymaster 4.0, run "export FOX_USE_KEYMASTER_4=1" before building.
 
 ### Kernel source
-Clone this: "https://github.com/LineageOS/android_kernel_xiaomi_sdm845.git -b lineage-18.1"
+Clone this: "https://github.com/PixelExperience-Devices/kernel_xiaomi_polaris.git -b thirteen"
 
 ## Copyright
  ```
