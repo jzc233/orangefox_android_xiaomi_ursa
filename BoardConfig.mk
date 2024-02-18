@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022-2023 The OrangeFox Recovery Project
+# Copyright (C) 2022-2024 The OrangeFox Recovery Project
 #
 #	OrangeFox is free software: you can redistribute it and/or modify
 #	it under the terms of the GNU General Public License as published by
@@ -19,16 +19,4 @@
 
 # Inherit the common sdm845 BoardConfig
 include device/xiaomi/sdm845-common/BoardConfigCommon.mk
-
-# override the prebuilt kernel setting with a stock kernel
-ifeq ($(FOX_USE_STOCK_KERNEL),1)
-  TARGET_PREBUILT_KERNEL := $(KERNEL_PATH)/Image-stock.gz-dtb
-endif
-
-# default to f2fs for dynamic builds
-ifeq ($(FOX_USE_DYNAMIC_PARTITIONS),1)
-  BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
-  TARGET_USERIMAGES_USE_F2FS := true
-  TARGET_USERIMAGES_USE_EXT4 :=
-endif
 #
