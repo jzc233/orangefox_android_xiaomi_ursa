@@ -52,9 +52,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
 	# pull in the common vendorsetup.sh
 	source device/xiaomi/sdm845-common/vendorsetupcommon.sh
-
-	# if we are not using a stock kernel, disable LZMA compression
-	[ "$FOX_USE_STOCK_KERNEL" != "1" ] && unset OF_USE_LZMA_COMPRESSION
 else
 	if [ -z "$FOX_BUILD_DEVICE" -a -z "$BASH_SOURCE" ]; then
 		echo "I: This script requires bash. Not processing the $FDEVICE $(basename $0)"
