@@ -29,14 +29,14 @@ Generally, see https://wiki.orangefox.tech/en/dev/building
 3. To build for ROMs using borrowed keymaster 4.0, run "export FOX_USE_KEYMASTER_4=1" before building.
 
 ### Kernel source
-Clone this: "https://github.com/PixelExperience-Devices/kernel_xiaomi_polaris.git -b thirteen"
+Clone this: "https://github.com/LineageOS/android_kernel_xiaomi_sdm845.git -b lineage-21"
 
 ## Copyright
  ```
   /*
   *  Copyright (C) 2018 The LineageOS Project
   *
-  *  Copyright (C) 2019-2022 The OrangeFox Recovery Project
+  *  Copyright (C) 2019-2024 The OrangeFox Recovery Project
   *
   * This program is free software: you can redistribute it and/or modify
   * it under the terms of the GNU General Public License as published by
