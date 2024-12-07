@@ -17,12 +17,12 @@
 # 	
 # 	Please maintain this if you use this script or any part of it
 #
-FDEVICE="dipper"
+FDEVICE="equuleus"
 
 fetch_sdm845_common_repo() {
-	local URL=https://gitlab.com/OrangeFox/device/sdm845-common.git;
+	local URL=https://github.com/jzc233/sdm845-common.git;
 	local common=device/xiaomi/sdm845-common;
-	local branch=fox_12.1;
+	local branch=android_12.1;
 
 	if [ ! -d $common ]; then
 		echo "Cloning $URL ... to $common";
