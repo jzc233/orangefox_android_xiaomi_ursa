@@ -17,7 +17,7 @@
 # 	Please maintain this if you use this script or any part of it
 #
 
-PRODUCT_RELEASE_NAME := dipper
+PRODUCT_RELEASE_NAME := equuleus
 
 # These two paths must be set here
 DEVICE_PATH := device/xiaomi/$(PRODUCT_RELEASE_NAME)
@@ -31,5 +31,5 @@ PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
 PRODUCT_NAME := twrp_$(PRODUCT_RELEASE_NAME)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := $(PRODUCT_BRAND)
-PRODUCT_MODEL := Mi 8
+PRODUCT_MODEL := Mi 8 UD
 #
