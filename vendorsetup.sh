@@ -17,7 +17,7 @@
 # 	
 # 	Please maintain this if you use this script or any part of it
 #
-FDEVICE="equuleus"
+FDEVICE="ursa"
 
 fetch_sdm845_common_repo() {
 	local URL=https://github.com/jzc233/sdm845-common.git;
