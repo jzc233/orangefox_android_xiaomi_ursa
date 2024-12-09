@@ -17,9 +17,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_equuleus.mk
+    $(LOCAL_DIR)/twrp_ursa.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_equuleus-user \
-    twrp_equuleus-userdebug \
-    twrp_equuleus-eng
+    twrp_ursa-user \
+    twrp_ursa-userdebug \
+    twrp_ursa-eng
