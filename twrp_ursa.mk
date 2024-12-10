@@ -17,7 +17,7 @@
 # 	Please maintain this if you use this script or any part of it
 #
 
-PRODUCT_RELEASE_NAME := ursa
+PRODUCT_RELEASE_NAME := equuleus
 
 # These two paths must be set here
 DEVICE_PATH := device/xiaomi/$(PRODUCT_RELEASE_NAME)
